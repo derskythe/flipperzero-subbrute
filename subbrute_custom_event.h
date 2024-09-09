@@ -6,12 +6,12 @@
  *
  * This enumeration defines custom event types used in the SubBrute application.
  * The first 100 event types are reserved for button types and indexes, starting
- * from 0. The remaining event types are specific to the application and are used
- * to handle various events.
+ * from 0. The remaining event types are specific to the application and are
+ * used to handle various events.
  *
  * @note These event types are used to define custom events in the application's
- *       event handling system. They should be used to specify the type of custom
- *       events and differentiate them from other events.
+ *       event handling system. They should be used to specify the type of
+ * custom events and differentiate them from other events.
  *
  * @var SubBruteCustomEventTypeReserved
  * Reserved event type for button types and indexes. Starting from 0.
@@ -71,27 +71,27 @@
  * Event type for the load file event.
  */
 typedef enum {
-    /** Reserve first 100 events for button types and indexes, starting from 0 */
-    SubBruteCustomEventTypeReserved = 100,
+  /** Reserve first 100 events for button types and indexes, starting from 0 */
+  SubBruteCustomEventTypeReserved = 100,
 
-    SubBruteCustomEventTypeBackPressed,
-    SubBruteCustomEventTypeIndexSelected,
-    SubBruteCustomEventTypeTransmitStarted,
-    SubBruteCustomEventTypeError,
-    SubBruteCustomEventTypeTransmitFinished,
-    SubBruteCustomEventTypeTransmitNotStarted,
-    SubBruteCustomEventTypeTransmitCustom,
-    SubBruteCustomEventTypeSaveFile,
-    SubBruteCustomEventTypeExtraSettings,
-    SubBruteCustomEventTypeUpdateView,
-    SubBruteCustomEventTypeChangeStepUp,
-    SubBruteCustomEventTypeChangeStepDown,
-    SubBruteCustomEventTypeChangeStepUpMore,
-    SubBruteCustomEventTypeChangeStepDownMore,
+  SubBruteCustomEventTypeBackPressed,
+  SubBruteCustomEventTypeIndexSelected,
+  SubBruteCustomEventTypeTransmitStarted,
+  SubBruteCustomEventTypeError,
+  SubBruteCustomEventTypeTransmitFinished,
+  SubBruteCustomEventTypeTransmitNotStarted,
+  SubBruteCustomEventTypeTransmitCustom,
+  SubBruteCustomEventTypeSaveFile,
+  SubBruteCustomEventTypeExtraSettings,
+  SubBruteCustomEventTypeUpdateView,
+  SubBruteCustomEventTypeChangeStepUp,
+  SubBruteCustomEventTypeChangeStepDown,
+  SubBruteCustomEventTypeChangeStepUpMore,
+  SubBruteCustomEventTypeChangeStepDownMore,
 
-    SubBruteCustomEventTypeMenuSelected,
-    SubBruteCustomEventTypeTextEditDone,
-    SubBruteCustomEventTypePopupClosed,
+  SubBruteCustomEventTypeMenuSelected,
+  SubBruteCustomEventTypeTextEditDone,
+  SubBruteCustomEventTypePopupClosed,
 
-    SubBruteCustomEventTypeLoadFile,
+  SubBruteCustomEventTypeLoadFile,
 } SubBruteCustomEvent;
